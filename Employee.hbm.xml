@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.spring.domain.Employees" table="EMPLOYEES">
+<id name="empId" column="EMP_ID" type="integer" >
+<generator class="assigned"/>
+</id>
+<property name="firstName" column="FIRST_NAME" type="string" length="50"/>
+<property name="lastName" column="LAST_NAME" type="string" length="50"/>
+<property name="address" column="ADDRESS" type="string" length="100"/>
+<property name="emailaddress" column="EMAIL_ADDRESS" type="string" length="50"/>
+<property name="salary" column="SALARY" type="double" />
+<property name="designation" column="DESIGNATION" type="string" length="50"/>
+
+</class>
+</hibernate-mapping>
