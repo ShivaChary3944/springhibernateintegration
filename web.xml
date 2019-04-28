@@ -18,4 +18,6 @@
     <servlet-name>employee</servlet-name>
     <url-pattern>*.htm</url-pattern>
   </servlet-mapping>
+
+<!—-Changes added by Ravalika—->
 </web-app>
