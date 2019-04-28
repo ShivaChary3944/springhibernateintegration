@@ -20,4 +20,8 @@
   </servlet-mapping>
 
 <!—-Changes added by Ravalika—->
+<servlet-mapping>
+    <servlet-name>pnm</servlet-name>
+    <url-pattern>*.htm</url-pattern>
+  </servlet-mapping>
 </web-app>
