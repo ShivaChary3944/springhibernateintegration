@@ -24,4 +24,5 @@
     <servlet-name>pnm</servlet-name>
     <url-pattern>*.htm</url-pattern>
   </servlet-mapping>
+<!--change added by shiva -->
 </web-app>
